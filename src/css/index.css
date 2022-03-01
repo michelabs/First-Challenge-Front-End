@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #F5F5F5;  
+}
+
+.conteudo-footer{
+    text-align: center;  
+    color: white;
+    font-size: 13px;
+    padding: 40px 0;  
+    background-color: grey;  
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 0 2px;
+}
+
+/* Estilizando a barra de navegação principal*/
+nav{  
+    display: flex;  
+    align-items: center;
+    padding-top: 34.5px;    
+}
+
+nav h1{
+    margin-left: 153px;    
+}
+
+nav h1:before{      
+    height: 16px;
+    width: 16px;
+    left: 1px;
+    top: 4px;
+    margin-right: 15px;     
+   
+    vertical-align: middle;
+    content: url(../img/estrela.png);
+}
+
+nav ul {
+    position: absolute;    
+    right: 152px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 0 0 32px;
+}
+
+nav li:last-child{
+    font-weight: bold;
+}
+
+nav li:hover{
+    text-decoration: under;
+}
+
+/* estilizando o header*/
+
+header {
+    color: #464646;
+    display: flex;    
+    margin: 66.5px 152px 0px 152px;
+    align-items: center; 
+    justify-content: space-around;   
+}
+
+.principal{
+    width: 100%;
+}
+
+.imagem-apresentacao{    
+    border-radius: 50%;       
+    width: 368px;    
+    height: 368px;
+}
+
+header h2{
+    margin: 24px 0px;
+    font-size: 52px;
+    font-weight: bolder;
+}
+
+header p{
+    margin: 24px 0px;    
+    font-size: 22px;
+    font-weight: 400;
+}
+
+header li{
+    margin: 10px 0px;
+    padding: 0 60px 0 0;
+    display: inline-block;   
+}
+
+header li:after{
+    margin-left: 5px ;
+    content: url("../img/seta.png")
+}
+
+header a{
+    color: #464646;
+    text-decoration: none;   
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+/* estilizando o main (sobre mim)*/
+
+.caixa-sobre-mim{
+    height: 250px;
+}
+
+.sobre-mim{    
+    color:#464646;    
+    background-color: #EAF2FD;        
+}
+
+.sobre-mim h1{
+    padding: 64px 1122px 16px 152px;
+    font-size: 32px;
+    font-weight: bold;    
+}
+
+.sobre-mim p{    
+    text-align: justify;
+    padding: 16px 0 0 152px;
+    width: 60%;
+    justify-content: right;
+}
+
+.assinatura{
+    height: 52px;
+    width: 140px;
+    left: 0px;
+    top: 203px;
+    padding: 0 0 64px 152px;   
+}
+
+/* estilizando skills */
+
+.skills-hobbies{   
+    color:#464646;    
+    background-color: #F5F5F5;  
+}
+
+.skills-hobbies h1{
+    font-size: 32px;
+    padding: 30px;
+    font-weight: bold;      
+    text-align: center;
+}
+
+.skills-hobbies div{    
+    margin: 0px 0px 0px 152px ;
+}
+
+.skills li{    
+    display: inline-block;    
+    background-color: #FFFFFF;
+    height: 174px; 
+    width: 15%;  
+    padding: 16px;    
+    margin: 0px 16px;
+    font-weight: bold;      
+}
+
+.skills p, .hobbies p{
+    margin-top: 158px;
+}
+
+.titulo-hobbies{
+    margin: 88px 0 32px 0;
+}
+
+.hobbies li{    
+    display: inline-block;      
+    background-color: #FFFFFF;
+    height: 174px; 
+    width: 15%;  
+    padding: 16px;    
+    margin: 0px 16px;
+    font-weight: bold;    
+}
+
+
+
+
+
+
+
+
+
