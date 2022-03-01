@@ -113,10 +113,6 @@ header a:hover{
 
 /* estilizando o main (sobre mim)*/
 
-.caixa-sobre-mim{
-    height: 250px;
-}
-
 .sobre-mim{    
     color:#464646;    
     background-color: #EAF2FD;        
@@ -143,22 +139,26 @@ header a:hover{
     margin: 16px 0 64px 152px;   
 }
 
-/* estilizando skills */
+/* estilizando skills e hobbies */
 
 .skills-hobbies{   
     color:#464646;    
     background-color: #F5F5F5;  
 }
 
-.skills-hobbies h1{
-    font-size: 32px;
-    padding: 30px;
-    font-weight: bold;      
-    text-align: center;
+.skills-hobbies div{    
+    margin: 0px 152px 0px 152px ;
 }
 
-.skills-hobbies div{    
-    margin: 0px 0px 0px 152px ;
+.skills p, .hobbies p{
+    margin-top: 158px;
+}
+
+.titulo-skills{
+    font-size: 32px;
+    padding: 32px;
+    font-weight: bold;      
+    text-align: center;
 }
 
 .skills li{    
@@ -167,16 +167,15 @@ header a:hover{
     height: 174px; 
     width: 15%;  
     padding: 16px;    
-    margin: 0px 16px;
+    margin: 0px 20px;
     font-weight: bold;      
 }
 
-.skills p, .hobbies p{
-    margin-top: 158px;
-}
-
-.titulo-hobbies{
-    margin: 88px 0 32px 0;
+.titulo-hobbies{    
+    font-size: 32px;
+    margin: 88px 0 32px;
+    font-weight: bold;      
+    text-align: center;
 }
 
 .hobbies li{    
@@ -185,12 +184,50 @@ header a:hover{
     height: 174px; 
     width: 15%;  
     padding: 16px;    
-    margin: 0px 16px;
+    margin: 0px 20px;
     font-weight: bold;    
 }
 
+.skills img{   
+    width: 24px;
+    position: absolute;
+    margin: 126px 32px;
+}
 
+.hobbies img{
+    width: 24px;
+    position: absolute;
+    margin: 126px 32px; 
+}
 
+/* estilizando formação acadêmica */
+
+.formacao-academica{
+    color: rgb(70, 70, 70, 1);
+    background-color: #EAF2FD;
+}
+
+.formacao-academica div{    
+    margin: 0px 152px 0px 152px ;
+}
+
+.formacao-academica h1{
+    font-size: 32px;
+    margin: 88px 0;
+    padding: 82px 0 32px 0;
+    font-weight: bold;      
+    text-align: center;
+}
+
+.formacao-academica li{
+    display: inline-block;
+    background-color: #FFFFFF;       
+    height: 286px;
+    width: 30%;  
+    margin: 0 16px 0 0;      
+    padding: 16px;
+
+}
 
 
 
