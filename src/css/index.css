@@ -23,6 +23,7 @@ body{
 nav{  
     display: flex;  
     align-items: center;
+    justify-content: space-between;
     padding-top: 34.5px;    
 }
 
@@ -35,19 +36,17 @@ nav h1:before{
     width: 16px;
     left: 1px;
     top: 4px;
-    margin-right: 15px;     
-   
+    margin-right: 15px;   
     vertical-align: middle;
     content: url(../img/estrela.png);
 }
 
 nav ul {
-    position: absolute;    
-    right: 152px;
+    display: flex;
+    margin-right: 152px;      
 }
 
-nav ul li{
-    display: inline-block;
+nav ul li{    
     margin: 0 0 0 32px;
 }
 
@@ -55,18 +54,18 @@ nav li:last-child{
     font-weight: bold;
 }
 
-nav li:hover{
-    text-decoration: under;
+nav a:hover{
+    text-decoration: underline;
 }
 
 /* estilizando o header*/
 
 header {
-    color: #464646;
-    display: flex;    
+    display: flex; 
+    color: #464646;       
     margin: 66.5px 152px 0px 152px;
     align-items: center; 
-    justify-content: space-around;   
+    justify-content: space-between;   
 }
 
 .principal{
@@ -119,16 +118,14 @@ header a:hover{
 }
 
 .sobre-mim h1{
-    padding: 64px 1122px 16px 152px;
+    padding: 64px 0 0 152px;
     font-size: 32px;
     font-weight: bold;    
 }
 
-.sobre-mim p{    
-    text-align: justify;
+.sobre-mim p{   
     padding: 16px 0 0 152px;
-    width: 60%;
-    justify-content: right;
+    width: 62.7%; 
 }
 
 .assinatura{
@@ -136,101 +133,135 @@ header a:hover{
     width: 140px;
     left: 0px;
     top: 203px;
-    margin: 16px 0 64px 152px;   
+    padding: 0px 0 64px 152px;   
 }
 
 /* estilizando skills e hobbies */
 
-.skills-hobbies{   
-    color:#464646;    
-    background-color: #F5F5F5;  
+.skills-hobbies{
+    color: #464646;
+    background: #F5F5F5;
+    margin: 0 152px 0 152px;    
 }
 
-.skills-hobbies div{    
-    margin: 0px 152px 0px 152px ;
-}
-
-.skills p, .hobbies p{
-    margin-top: 158px;
-}
-
-.titulo-skills{
+.skills h1{
     font-size: 32px;
-    padding: 32px;
-    font-weight: bold;      
-    text-align: center;
+    margin: 32px 0 0 32px;
+    text-align: center;    
 }
 
-.skills li{    
-    display: inline-block;    
-    background-color: #FFFFFF;
-    height: 174px; 
-    width: 15%;  
-    padding: 16px;    
-    margin: 0px 20px;
-    font-weight: bold;      
+.skills ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 32px;
+  }
+
+.skills li{
+    display: inline-flex;
+    width: 15.5%;
+    height: 174px;
+    background: #FFFFFF;    
 }
 
-.titulo-hobbies{    
-    font-size: 32px;
-    margin: 88px 0 32px;
-    font-weight: bold;      
-    text-align: center;
-}
-
-.hobbies li{    
-    display: inline-block;      
-    background-color: #FFFFFF;
-    height: 174px; 
-    width: 15%;  
-    padding: 16px;    
-    margin: 0px 20px;
-    font-weight: bold;    
-}
-
-.skills img{   
-    width: 24px;
+.skills img{
     position: absolute;
-    margin: 126px 32px;
+    margin: 94px 120px 43px 16px;
+    height: 37px;
+    width: 40px;
+  }
+
+  .skills h3{
+    position: absolute;
+    margin: 139px 16px 16px 16px;
+  }
+
+  .hobbies h1{
+    font-size: 32px;
+    margin: 32px 0 0 32px;
+    text-align: center;
+    margin-top: 88px;
+}
+  
+.hobbies ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 32px;
+  }
+
+.hobbies li{
+    display: inline-flex;
+    width: 15.5%;
+    height: 174px;
+    background: #FFFFFF;    
 }
 
 .hobbies img{
-    width: 24px;
     position: absolute;
-    margin: 126px 32px; 
-}
+    margin: 94px 120px 43px 16px;
+    height: 37px;
+    width: 40px;
+  }
+
+  .hobbies h3{
+    position: absolute;
+    margin: 139px 16px 16px 16px;
+  }
 
 /* estilizando formação acadêmica */
 
 .formacao-academica{
-    color: rgb(70, 70, 70, 1);
-    background-color: #EAF2FD;
+    color:#464646;    
+    background-color: #EAF2FD;    
+    display: flex;
+    margin-top: 88px;    
 }
 
-.formacao-academica div{    
-    margin: 0px 152px 0px 152px ;
+.formacao-academica div{
+    margin: 0 152px 0 152px;
 }
 
 .formacao-academica h1{
     font-size: 32px;
-    margin: 88px 0;
-    padding: 82px 0 32px 0;
-    font-weight: bold;      
+    font-weight: bold;
     text-align: center;
+    padding-top: 82px;    
 }
 
-.formacao-academica li{
-    display: inline-block;
-    background-color: #FFFFFF;       
-    height: 286px;
-    width: 30%;  
-    margin: 0 16px 0 0;      
-    padding: 16px;
+.formacao-academica ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;      
+    margin-top: 32px;    
+}
+
+.formacao-academica li{    
+    width: 30%;
+}
+
+.formacao-academica img{
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    width: 100%;
+    height: 100%;
+    padding: 78px 88px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formacao-academica h3{
+    font-size: 22px;
+    font-weight: bold;
 
 }
 
+.formacao-academica p{
+    font-size: 16px;
+}
 
-
-
-
-
+/* estilizando experiência profissional */
