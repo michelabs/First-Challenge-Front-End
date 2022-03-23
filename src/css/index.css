@@ -46,7 +46,7 @@ nav ul {
     margin-right: 152px;      
 }
 
-nav ul li{    
+nav ul li{     
     margin: 0 0 0 32px;
 }
 
@@ -54,6 +54,10 @@ nav li:last-child{
     font-weight: bold;
 }
 
+nav a{
+    text-decoration: none;
+    color: #464646;
+}
 nav a:hover{
     text-decoration: underline;
 }
@@ -257,11 +261,164 @@ header a:hover{
 .formacao-academica h3{
     font-size: 22px;
     font-weight: bold;
-
+    margin-top: 8px;
 }
 
 .formacao-academica p{
     font-size: 16px;
+    margin-bottom: 82px;
 }
 
 /* estilizando experiência profissional */
+
+.link-repo{        
+    border: 2px solid #2A7AE4;   
+    width: 105px;
+    height: 51px;
+    left: 16px;
+    top: 16px;        
+}
+
+.link-repo a{
+    color: #2A7AE4;
+    text-decoration: none;    
+}
+
+.link-repo:hover{
+    text-decoration: underline;    
+}
+
+.link-acesso{
+    background-color: #2A7AE4;
+    margin-top: 8px;
+    border: none;
+    width: 105px;
+    height: 51px;
+    left: 16px;
+    top: 16px; 
+}
+
+.link-acesso a{
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+.link-acesso:hover{
+    background-color: #2A7AE4;        
+    text-decoration: underline;
+}
+
+.exp-profissional{
+    color: #464646;
+    background: #F5F5F5;
+    margin: 0 152px 0 152px;  
+}
+
+.exp-profissional h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.exp-profissional h3{
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.exp-profissional h1{
+    margin-top: 32px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.exp-profissional li{
+    display: flex;
+    flex-direction: row;
+    align-items: middle;
+}
+
+.dsvendas{
+    display: flex;
+    align-items: center;   
+    margin: 32px 0; 
+}
+
+.dsvendas img{
+    width: 66.20%;    
+}
+
+.dsvendas div{
+    margin: 0 0 0 26px;
+}
+
+.codificador-texto{
+    display: flex;
+    align-items: center;   
+    margin-top: 53.5px; 
+}
+
+.info-acessos-codificador{
+    width: 33.8%;
+    margin-left: 16px;
+}
+
+.codificador-texto img{
+    width:  66.20%;    
+}
+
+.codificador-texto div{
+    margin: 0 0 0 26px;
+}
+
+.jogo-forca{
+    display: flex;
+    align-items: center;   
+    margin-top: 53.5px; 
+}
+
+.info-acessos-forca{
+    width: 33.8%;
+    margin-left: 16px;
+}
+
+.jogo-forca img{
+    width:  66.20%;    
+}
+
+.jogo-forca div{
+    margin: 0 0 0 26px;
+}
+
+.consulta-sus{
+    display: flex;
+    align-items: center;   
+    margin-top: 53.5px; 
+}
+
+.info-acessos-consulta-sus{
+    width: 33.8%;
+    margin-left: 16px;
+}
+
+.consulta-sus img{
+    width:  66.20%;    
+}
+
+.consulta-sus div{
+    margin: 0 0 0 26px;
+}
+
+/* estilizando formulario de contato*/
+
+.contato{
+    color: #464646;
+    background: #EAF2FD;    
+}
+
+.contato h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center; 
+    margin-top: 32px;  
+    padding: 128px;
+}
