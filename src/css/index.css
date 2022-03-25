@@ -276,7 +276,8 @@ header a:hover{
     width: 105px;
     height: 51px;
     left: 16px;
-    top: 16px;        
+    top: 16px;
+    margin-top: 8px;        
 }
 
 .link-repo a{
@@ -289,13 +290,13 @@ header a:hover{
 }
 
 .link-acesso{
-    background-color: #2A7AE4;
-    margin-top: 8px;
+    background-color: #2A7AE4;    
     border: none;
     width: 105px;
     height: 51px;
     left: 16px;
     top: 16px; 
+    margin-top: 8px; 
 }
 
 .link-acesso a{
