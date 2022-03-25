@@ -311,7 +311,7 @@ header a:hover{
 .exp-profissional{
     color: #464646;
     background: #F5F5F5;
-    margin: 0 152px 0 152px;  
+    margin: 0 152px 32px 152px;  
 }
 
 .exp-profissional h2{
@@ -410,15 +410,57 @@ header a:hover{
 
 /* estilizando formulario de contato*/
 
-.contato{
+.form-contato{
     color: #464646;
-    background: #EAF2FD;    
+    background: #EAF2FD;      
 }
 
-.contato h1{
+.form-contato h1{
     font-size: 32px;
-    font-weight: bold;
-    text-align: center; 
-    margin-top: 32px;  
-    padding: 128px;
+    font-weight: bold;    
+}
+
+.form-contato h2{
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.contato{   
+    display: flex;
+    justify-content: center;
+    padding-top: 128px;      
+}
+
+.posicionamento-img img{
+    display: block;    
+    width: 464px;   
+}
+
+.posicionamento-form{
+    display: flex;
+    width: 35vw;
+    flex-direction: column;  
+    margin-left: 16px;    
+    margin-bottom: 64px;
+}
+
+.input-contato{
+    border: transparent;
+    height: 40px;
+    margin: 10px 0 10px 0;
+    width: 100%;
+}
+
+.input-mensagem{
+    border: transparent;
+    margin: 10px 0 10px 0;
+    height: 97px;
+    width: 100%;
+}
+
+.botao-envio{
+    background-color: #2A7AE4;
+    padding: 16px;
+    color: white;
+    margin-top: 32px;
 }

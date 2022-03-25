@@ -146,9 +146,27 @@
 
             </section>
 
-            <section class="contato">
-                <h1>Contato</h1>
-                <img src="src/img/contato">
+            <section class="form-contato">
+                <div class="contato" id="contato">
+                    <div class="posicionamento-img">
+                        <img src="src/img/contato.png">
+                    </div>
+
+                    <div class="posicionamento-form">
+                        <h1>Contato</h1>
+                        <h2> Quer entrar em contato comigo? <br>Prencha o formulário ao lado e entrarei em contato o mais rápido possível.</h2>
+
+                        <form action="" class="formulario-contato" name="form">
+                            <input class="input-contato" type="text" id="nome" placeholder="Nome">
+                            <input class="input-contato" type="email" name="email" placeholder="E-mail">
+                            <input class="input-contato" type="text" name="assunto" placeholder="Assunto">
+                           <textarea class="input-mensagem" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
+                           <button class="botao-envio" type="submit" id="botao-envio">Enviar Mensagem</button>
+
+                        </form>
+                    </div>
+                        
+                </div>            
             </section>
         </main>
 
@@ -158,6 +176,7 @@
                 <p>First Challenge Front End Oracle ONE<br/></p> 
                 <p class="copyright">&copy; Copyright Michel Silva - 2022</p>
             </div>            
-        </footer>     
+        </footer>    
+        <script src="src/js/validacao.js"></script> 
     </body>
 </html>
